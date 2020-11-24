@@ -1,0 +1,1 @@
+[["CmuRxOpStatusNodeID"], ["Records"], ["FirstNodeID"], ["LastNodeID"], ["nodes", [["ID"], ["USN"], ["MinCellVolt", "x/1000"], ["MaxCellVolt", "x/1000"], ["MinCellTemp", "x-40"], ["BypassTemp", "x-40"], ["BypassAmp", "x/1000"], ["Status"]]]]

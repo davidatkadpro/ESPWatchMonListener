@@ -1,0 +1,1 @@
+[["HwSystemSetupVers"], ["SystemCode", "x.decode(\"utf8\")"], ["SysName", "x.decode(\"utf8\")"], ["AssetCode", "x.decode(\"utf8\")"], ["AllowTechAuth"], ["AllowQuickSession"], ["QuickSessionInterval", "x/1000"], ["SystemPresetId"], ["SystemFirmwareVersion"], ["SystemHardwareVersion"], ["SystemSerialNo"]]

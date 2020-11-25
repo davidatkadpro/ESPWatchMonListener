@@ -5,7 +5,7 @@ import utime as time
 import ujson as json
 
 class Watchmon:
-    def __init__(self, host="", port=18542, buf_size=1024, blocking=False,  callback=None, callint=5, sleep=300, msgdir='modules/watchmon/', active_codes=[]):
+    def __init__(self, host="", port=18542, buf_size=1024, blocking=False,  callback=None, callint=5, sleep=300, msgdir='watchmon/', active_codes=[]):
         self.host = host
         self.port = port
         self.buf_size = buf_size
@@ -36,7 +36,6 @@ class Watchmon:
         self._sock.close()
 
     def packetMsg(self):
-        # file name: msg_3e32_StatusRapid.json
         if self._buffer != {}:
             import uos as os
             _ld = os.listdir(self.msgdir)
@@ -174,7 +173,6 @@ wm_codes = {
 '5732': ['<8shhi7B3h5BhfBB'],
 '5831': ['<hIB1b4B6h16B4h'],
 '6131': ['<IBBhh15B'],
-
 '6132': ['<IBBhh16B'],
 '6831': ['<hIBB3hBhhfB'],
 '7857': ['<B5IBBhh3fIIhh8s8s']
